@@ -85,6 +85,7 @@ Self-grades are excluded from the official score.
 | [`results/round-1/judge_grades.json`](results/round-1/judge_grades.json) | All judge grades in machine-readable form |
 | [`results/round-1/author_review.json`](results/round-1/author_review.json) | The author's 13 decisions and the judges' awards on each |
 | [`results/round-1/final_scores.json`](results/round-1/final_scores.json) | Final scores, reproducible with `eval/apply_review.py` |
+| [`reports/lenient-judges-report-v1.pdf`](reports/lenient-judges-report-v1.pdf) | Technical report on judge leniency, [doi:10.5281/zenodo.24351871](https://doi.org/10.5281/zenodo.24351871) |
 
 ## Limitations of this round
 

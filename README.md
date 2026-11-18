@@ -34,6 +34,8 @@ In each case an AI system acts as counsel on a realistic regulatory file: a clie
 - The model judges agreed with each other on 87% of criteria, but two of the three were markedly more lenient than the author on penalties.
 - One model graded its own answers higher than the other judges did in every case.
 
+**Technical report:** [*Lenient Judges: Model Graders Miss Serious Legal Errors*](reports/lenient-judges-report-v1.pdf) analyses the judges' leniency on penalties ([doi:10.5281/zenodo.24351871](https://doi.org/10.5281/zenodo.24351871)).
+
 ## Why this benchmark
 
 Most legal AI evaluations test whether a model knows a rule. Regulatory practice is harder: the rule is usually clear, but the facts are not. Records disagree, a verified figure turns out to rest on the wrong installation, a customs quantity was prepared for a different legal purpose, and a regulator's letter must be answered before every question is settled.

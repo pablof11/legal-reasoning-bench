@@ -75,6 +75,7 @@
     <li><b>One judge favoured its own model.</b> Gemini graded its own answers 6.8 points above the other judges on average, and higher in 5 of 5 cases. Self-grades are excluded from the official score.</li>
     <li><b>Running one protocol across providers is not trivial.</b> Tool support, output limits and cost varied widely. A single web-enabled answer could consume up to one million input tokens.</li>
   </ol>
+  <p>Technical report: <a href="https://github.com/pablof11/legal-reasoning-bench/blob/main/reports/lenient-judges-report-v1.pdf"><i>Lenient Judges: Model Graders Miss Serious Legal Errors</i></a> (DOI <a href="https://doi.org/10.5281/zenodo.24351871">10.5281/zenodo.24351871</a>).</p>
 
   <h2>How it works</h2>
   <p>Each case gives the model only a client instruction, a bundle of PDF and spreadsheet records, and an official legal bibliography. Answers are graded criterion by criterion against an expert reference answer by model judges from three developers. A judge never sets the official score of its own developer's model. The author reviews the criteria on which the judges disagree. The evaluation runs on <a href="https://inspect.aisi.org.uk">Inspect</a>, the open-source framework of the UK AI Security Institute.</p>
