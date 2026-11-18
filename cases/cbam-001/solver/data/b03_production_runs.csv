@@ -1,0 +1,9 @@
+﻿production_batch,date_grinding_complete,sales_product,feeder_path,finished_cement_t,clinker_draw_t,grinding_direct_tco2e,active_electricity_mwh,electricity_meter_run_ref,duration,quality_release_ref
+K26-041,2026-03-23,G42,S1,620,573.500,11.160,27.900,ME-K26-041,12-hour grinding run,LOT-K26-041
+K26-057,2026-04-18,G42,S1,580,536.500,10.440,26.100,ME-K26-057,12-hour grinding run,LOT-K26-057
+K26-073,2026-05-28,L32,S2,740,577.200,14.060,27.380,ME-K26-073,12-hour grinding run,LOT-K26-073
+K26-088,2026-06-27,L32,S2,460,358.800,8.740,17.020,ME-K26-088,12-hour grinding run,LOT-K26-088
+K26-103,2026-07-19,R28,H9,520,322.400,11.440,21.320,ME-K26-103,12-hour grinding run,LOT-K26-103
+K26-121,2026-08-25,G42,S1,680,629.000,12.240,30.600,ME-K26-121,12-hour grinding run,LOT-K26-121
+K26-147,2026-09-29,L32,S2,620,483.600,11.780,22.940,ME-K26-147,12-hour grinding run,LOT-K26-147
+K26-166,2026-11-18,R28,S2,580,406.000,12.760,23.780,ME-K26-166,12-hour grinding run,LOT-K26-166

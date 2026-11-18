@@ -1,0 +1,13 @@
+﻿event_date,movement_type,storage_point,source_installation_ref,production_batch,net_clinker_t,weighbridge_or_feeder_ref,operation_note
+2026-03-03,RECEIPT,S1,KC-KILN-A,,1800.000,WH-26611,Sealed gate-in weighbridge
+2026-03-04,RECEIPT,S2,KC-KILN-A,,1150.000,WH-26619,Sealed gate-in weighbridge
+2026-03-04,RECEIPT,S2,AK-KILN-B,,1200.000,WH-26623,Sealed gate-in weighbridge
+2026-03-05,RECEIPT,H9,AK-KILN-B,,360.000,WH-26638,Sealed gate-in weighbridge
+2026-03-23,ISSUE,S1,,K26-041,-573.500,FEED-K26-041,Metered batch feed
+2026-04-18,ISSUE,S1,,K26-057,-536.500,FEED-K26-057,Metered batch feed
+2026-05-28,ISSUE,S2,,K26-073,-577.200,FEED-K26-073,Metered batch feed
+2026-06-27,ISSUE,S2,,K26-088,-358.800,FEED-K26-088,Metered batch feed
+2026-07-19,ISSUE,H9,,K26-103,-322.400,FEED-K26-103,Metered batch feed
+2026-08-25,ISSUE,S1,,K26-121,-629.000,FEED-K26-121,Metered batch feed
+2026-09-29,ISSUE,S2,,K26-147,-483.600,FEED-K26-147,Metered batch feed
+2026-11-18,ISSUE,S2,,K26-166,-406.000,FEED-K26-166,Metered batch feed

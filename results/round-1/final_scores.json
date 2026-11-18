@@ -1,0 +1,25 @@
+{
+ "openrouter/anthropic/claude-fable-5.2": {
+  "CBAM-001": 70.75,
+  "CO-FX-001": 90.5,
+  "CO-VAL-001": 85.25,
+  "UK-ORI-001": 83.5,
+  "UK-VAL-001": 72.0,
+  "US-PEN-001": 68.25
+ },
+ "openrouter/google/gemini-4-carbon": {
+  "CO-FX-001": 71.5,
+  "CO-VAL-001": 68.0,
+  "UK-ORI-001": 73.5,
+  "UK-VAL-001": 52.75,
+  "US-PEN-001": 42.25
+ },
+ "openrouter/openai/gpt-6.2-astra": {
+  "CBAM-001": 89.0,
+  "CO-FX-001": 99.0,
+  "CO-VAL-001": 98.75,
+  "UK-ORI-001": 98.75,
+  "UK-VAL-001": 96.75,
+  "US-PEN-001": 98.5
+ }
+}

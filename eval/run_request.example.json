@@ -1,0 +1,19 @@
+{
+  "run_id": "round-2",
+  "mode": "eval",
+  "models": [
+    "openrouter/anthropic/claude-fable-5.2",
+    "openrouter/openai/gpt-6.2-astra",
+    "openrouter/google/gemini-4-carbon"
+  ],
+  "judges": [
+    "openrouter/anthropic/claude-fable-5.2",
+    "openrouter/openai/gpt-6.2-astra",
+    "openrouter/google/gemini-4-carbon"
+  ],
+  "web": "search",
+  "reasoning_effort": "high",
+  "max_connections": 3,
+  "attempts": 2,
+  "cases": ""
+}

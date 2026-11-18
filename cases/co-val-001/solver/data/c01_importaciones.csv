@@ -1,0 +1,7 @@
+declaracion,fecha_aceptacion,fecha_levante,factura_comercial,conocimiento_embarque,pais_origen,aduana_llegada,fob_usd,flete_usd,seguro_usd,valor_aduana_declarado_usd,tipo_valor_dav,ajuste_regalias_usd,respuesta_vinculacion,ref_agencia
+IM-2026-0319,2026-03-19,2026-03-20,TM-260312-A,PKG-CAR-2603134,Malaysia,Cartagena,"51,760.00","3,120.00",156.00,"55,036.00",definitiva,0.00,SI,CCA-0319
+IM-2026-0428,2026-04-28,2026-04-29,TM-260420-B,PKG-CAR-2604226,Malaysia,Cartagena,"53,200.00","2,700.00",133.00,"56,033.00",definitiva,0.00,SI,CCA-0428
+IM-2026-0526,2026-05-26,2026-05-27,TM-260519-C,PKG-CAR-2605213,Malaysia,Cartagena,"34,920.00","2,180.00",105.00,"37,205.00",definitiva,0.00,SI,CCA-0526
+IM-2026-0724,2026-07-24,2026-07-25,TM-260715-D,PKG-CAR-2607178,Malaysia,Cartagena,"59,340.00","3,220.00",178.00,"62,738.00",definitiva,0.00,SI,CCA-0724
+IM-2026-0827,2026-08-27,2026-08-28,TM-260819-E,PKG-CAR-2608210,Malaysia,Cartagena,"26,800.00","1,640.00",80.00,"28,520.00",definitiva,0.00,SI,CCA-0827
+IM-2026-0920,2026-09-20,2026-09-21,TM-260909-F,PKG-CAR-2609119,Malaysia,Cartagena,"43,800.00","2,260.00",131.00,"46,191.00",definitiva,0.00,SI,CCA-0920

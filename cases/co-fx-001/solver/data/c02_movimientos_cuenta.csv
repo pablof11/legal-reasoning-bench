@@ -1,0 +1,8 @@
+﻿periodo_extracto,fecha_valor,referencia_banco,titular_cuenta,cuenta,contraparte,tipo,moneda,entrada,salida,saldo_posterior,detalle
+2021-03,2021-03-01,OPEN-2103,Nisamar Procesos Térmicos S.A.S.,CC-7842,Saldo inicial,APERTURA,USD,0.00,0.00,180000.00,Saldo inicial marzo 2021
+2021-03,2021-03-19,CB-031921-004,Nisamar Procesos Térmicos S.A.S.,CC-7842,Hellerwerk Anlagentechnik GmbH,TRANSFERENCIA,USD,0.00,50000.00,130000.00,HW-210318 / BL-HH-210319
+2026-06,2026-06-01,OPEN-2606,Nisamar Procesos Térmicos S.A.S.,CC-7842,Saldo inicial,APERTURA,USD,0.00,0.00,228000.00,Saldo inicial junio 2026
+2026-06,2026-06-29,CB-062926-151,Nisamar Procesos Térmicos S.A.S.,CC-7842,Hellerwerk Anlagentechnik GmbH,TRANSFERENCIA,USD,0.00,116000.00,112000.00,HW-260415 / HW-RCPT-0629
+2026-07,2026-07-01,OPEN-2607,Nisamar Procesos Térmicos S.A.S.,CC-7842,Saldo inicial,APERTURA,USD,0.00,0.00,112000.00,Saldo inicial julio 2026
+2026-07,2026-07-07,CB-070726-011,Nisamar Procesos Térmicos S.A.S.,CC-7842,Insurance claim adjustment,ABONO,USD,6000.00,0.00,118000.00,Reintegro póliza de transporte
+2026-07,2026-07-26,CB-072626-058,Nisamar Procesos Térmicos S.A.S.,CC-7842,Aster Cloud Hosting LLC,TRANSFERENCIA,USD,0.00,7400.00,110600.00,Pago alojamiento de datos / servicios

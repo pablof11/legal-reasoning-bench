@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite it as below."
+title: "Legal Reasoning Bench: Customs, Trade and Regulatory Law"
+version: "0.1.0"
+date-released: 2026-11-18
+license: CC-BY-4.0
+authors:
+  - family-names: "Rios Montoya"
+    given-names: "Juan Pablo"
+repository-code: "https://github.com/pablof11/legal-reasoning-bench"
+abstract: "An expert-designed benchmark of professional legal reasoning in customs, international trade, foreign-exchange and regulatory law. Six cases across the EU, UK, US and Colombia, scored with weighted rubrics and penalty criteria, and evaluated with the Inspect framework."
+keywords:
+  - legal reasoning
+  - benchmark
+  - AI evaluation
+  - LLM-as-a-judge
+  - Inspect
+  - customs law
+  - international trade
+  - CBAM

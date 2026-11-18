@@ -1,0 +1,4 @@
+﻿Cost_pool,Total_cost_GBP,Total_global_units,UK_import_units,Other_market_units,UK_allocation_GBP,Evidence_basis
+AL40/P60 production tooling,96000.00,22500,7500,15000,32000.00,Toolmaker invoices and production issue logs
+Engineering and development performed in Shenzhen,24000.00,22500,7500,15000,8000.00,Engineering time ledger and production allocation
+Engineering performed in Birmingham,12000.00,22500,7500,15000,0.00,UK payroll and design-team time ledger; work performed in UK

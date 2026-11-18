@@ -1,0 +1,135 @@
+{
+ "reviewer": "author",
+ "decisions": [
+  {
+   "case": "UK-VAL-001",
+   "model": "openrouter/anthropic/claude-fable-5.2",
+   "criterion": "N1",
+   "award": 1.0,
+   "judges": {
+    "openai/gpt-6.2-astra": 1.0,
+    "google/gemini-4-carbon": 0.0
+   }
+  },
+  {
+   "case": "UK-VAL-001",
+   "model": "openrouter/anthropic/claude-fable-5.2",
+   "criterion": "N3",
+   "award": 0.5,
+   "judges": {
+    "openai/gpt-6.2-astra": 0.5,
+    "google/gemini-4-carbon": 0.0
+   }
+  },
+  {
+   "case": "CO-FX-001",
+   "model": "openrouter/anthropic/claude-fable-5.2",
+   "criterion": "N2",
+   "award": 0.0,
+   "judges": {
+    "openai/gpt-6.2-astra": 0.0,
+    "google/gemini-4-carbon": 0.5
+   }
+  },
+  {
+   "case": "US-PEN-001",
+   "model": "openrouter/anthropic/claude-fable-5.2",
+   "criterion": "N1",
+   "award": 0.5,
+   "judges": {
+    "openai/gpt-6.2-astra": 0.5,
+    "google/gemini-4-carbon": 0.0
+   }
+  },
+  {
+   "case": "US-PEN-001",
+   "model": "openrouter/anthropic/claude-fable-5.2",
+   "criterion": "N2",
+   "award": 0.5,
+   "judges": {
+    "openai/gpt-6.2-astra": 0.5,
+    "google/gemini-4-carbon": 0.0
+   }
+  },
+  {
+   "case": "US-PEN-001",
+   "model": "openrouter/anthropic/claude-fable-5.2",
+   "criterion": "N3",
+   "award": 0.0,
+   "judges": {
+    "openai/gpt-6.2-astra": 0.5,
+    "google/gemini-4-carbon": 0.0
+   }
+  },
+  {
+   "case": "CO-VAL-001",
+   "model": "openrouter/google/gemini-4-carbon",
+   "criterion": "N2",
+   "award": 0.5,
+   "judges": {
+    "openai/gpt-6.2-astra": 1.0,
+    "anthropic/claude-fable-5.2": 0.0
+   }
+  },
+  {
+   "case": "UK-ORI-001",
+   "model": "openrouter/google/gemini-4-carbon",
+   "criterion": "N2",
+   "award": 1.0,
+   "judges": {
+    "anthropic/claude-fable-5.2": 0.0,
+    "openai/gpt-6.2-astra": 1.0
+   }
+  },
+  {
+   "case": "UK-ORI-001",
+   "model": "openrouter/google/gemini-4-carbon",
+   "criterion": "N1",
+   "award": 0.0,
+   "judges": {
+    "anthropic/claude-fable-5.2": 0.5,
+    "openai/gpt-6.2-astra": 0.0
+   }
+  },
+  {
+   "case": "UK-VAL-001",
+   "model": "openrouter/google/gemini-4-carbon",
+   "criterion": "N1",
+   "award": 1.0,
+   "judges": {
+    "anthropic/claude-fable-5.2": 0.5,
+    "openai/gpt-6.2-astra": 1.0
+   }
+  },
+  {
+   "case": "UK-VAL-001",
+   "model": "openrouter/google/gemini-4-carbon",
+   "criterion": "N4",
+   "award": 0.5,
+   "judges": {
+    "anthropic/claude-fable-5.2": 0.0,
+    "openai/gpt-6.2-astra": 1.0
+   }
+  },
+  {
+   "case": "US-PEN-001",
+   "model": "openrouter/google/gemini-4-carbon",
+   "criterion": "N2",
+   "award": 1.0,
+   "judges": {
+    "anthropic/claude-fable-5.2": 0.0,
+    "openai/gpt-6.2-astra": 1.0
+   }
+  },
+  {
+   "case": "US-PEN-001",
+   "model": "openrouter/google/gemini-4-carbon",
+   "criterion": "N1",
+   "award": 1.0,
+   "judges": {
+    "anthropic/claude-fable-5.2": 0.5,
+    "openai/gpt-6.2-astra": 1.0
+   }
+  }
+ ]
+}

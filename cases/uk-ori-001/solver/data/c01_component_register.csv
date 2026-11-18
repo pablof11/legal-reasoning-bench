@@ -1,0 +1,13 @@
+production_bom_rev,component_ref,description,hs_code,procurement_country,purchase_qualification,eur_per_engine_as_booked,workcentre
+NB-D380-MC-25/2,ENG-CYL-710,"Cylinder-block casting, unfinished",8409.99,TR,Non-originating,12400,NE-02
+NB-D380-MC-25/2,ENG-SHF-220,Forged crankshaft,8483.10,IN,Non-originating,9200,NE-02
+NB-D380-MC-25/2,ENG-TUR-510,Turbocharger assembly,8414.80,TR,Non-originating,8150,NE-02
+NB-D380-MC-25/2,ENG-STA-830,Starter motor,8511.40,CN,Non-originating,3930,NE-02
+NB-D380-MC-25/2,ENG-ECU-610,Powertrain control ECU,8537.10,JP,Non-originating,5500,NE-02
+NB-D380-MC-25/2,ENG-VLV-232,Pneumatic valve kit,8481.80,CN,Non-originating,3100,NE-02
+NB-D380-MC-25/2,ENG-SNS-242,Pressure sensing module,9026.20,KR,Non-originating,2400,NE-02
+NB-D380-MC-25/2,ENG-CASE-200,UK-machined sump and covers,8409.99,GB,UK-sourced with manufacturing records,6400,NE-02
+NB-D380-MC-25/2,ENG-PIST-770,UK-machined piston set,8409.99,GB,UK-sourced with manufacturing records,4950,NE-02
+NB-D380-MC-25/2,ENG-RING-780,UK-finished rings and bearings,8483.30,GB,UK-sourced with manufacturing records,1780,NE-02
+NB-D380-MC-25/2,ENG-HARN-870,UK cable and connection harness,8544.42,GB,UK-sourced with manufacturing records,1550,NE-02
+NB-D380-MC-25/2,ENG-FUEL-380,RheinFuel HP-380 pump (per as-installed serial),8413.30,DE,See RF supply records / serial trace,7800,NE-02

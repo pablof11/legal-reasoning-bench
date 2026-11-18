@@ -1,0 +1,33 @@
+﻿Entry_reference,Product,Sale_channel,Customer_relationship,Sale_date,Units_sold,Net_unit_price_GBP,Net_sales_GBP,Condition_at_sale
+E002,BR90,Independent wholesale,No,20/10/2025,240,118.00,28320.00,As imported
+E002,BR90,Independent retail,No,24/10/2025,40,132.00,5280.00,As imported
+E004,BR90,Independent wholesale,No,10/11/2025,250,118.00,29500.00,As imported
+E004,BR90,Independent retail,No,20/11/2025,20,132.00,2640.00,As imported
+E006,BR90,Independent wholesale,No,15/12/2025,230,118.00,27140.00,As imported
+E006,BR90,Independent retail,No,19/12/2025,30,132.00,3960.00,As imported
+E008,BR90,Independent wholesale,No,12/01/2026,220,118.00,25960.00,As imported
+E008,BR90,Independent retail,No,15/01/2026,30,132.00,3960.00,As imported
+E010,BR90,Independent wholesale,No,10/02/2026,210,118.00,24780.00,As imported
+E010,BR90,Independent retail,No,14/02/2026,30,132.00,3960.00,As imported
+E012,BR90,Independent wholesale,No,10/03/2026,200,118.00,23600.00,As imported
+E012,BR90,Independent retail,No,14/03/2026,30,132.00,3960.00,As imported
+E014,BR90,Independent wholesale,No,10/04/2026,190,118.00,22420.00,As imported
+E014,BR90,Independent retail,No,14/04/2026,30,132.00,3960.00,As imported
+E017,BR90,Independent wholesale,No,20/05/2026,180,118.00,21240.00,As imported
+E017,BR90,Independent retail,No,24/05/2026,30,132.00,3960.00,As imported
+E020,BR90,Independent wholesale,No,10/06/2026,170,118.00,20060.00,As imported
+E020,BR90,Independent retail,No,14/06/2026,30,132.00,3960.00,As imported
+E026,BR90,Independent wholesale,No,10/09/2026,150,118.00,17700.00,As imported
+E026,BR90,Independent retail,No,14/09/2026,30,132.00,3960.00,As imported
+E021,P60,Independent wholesale,No,15/06/2026,150,94.00,14100.00,After UK calibration
+E021,P60,Fallowbrook Projects Ltd,Yes - group related,19/06/2026,40,111.00,4440.00,After UK calibration
+E021,P60,Independent retail,No,26/06/2026,20,126.00,2520.00,After UK calibration
+E023,P60,Independent wholesale,No,07/07/2026,160,94.00,15040.00,After UK calibration
+E023,P60,Fallowbrook Projects Ltd,Yes - group related,14/07/2026,30,111.00,3330.00,After UK calibration
+E023,P60,Independent retail,No,21/07/2026,20,126.00,2520.00,After UK calibration
+E024,P60,Independent wholesale,No,20/07/2026,170,94.00,15980.00,After UK calibration
+E024,P60,Fallowbrook Projects Ltd,Yes - group related,28/07/2026,20,111.00,2220.00,After UK calibration
+E024,P60,Independent retail,No,05/08/2026,10,126.00,1260.00,After UK calibration
+E027,P60,Independent wholesale,No,15/09/2026,120,94.00,11280.00,After UK calibration
+E027,P60,Fallowbrook Projects Ltd,Yes - group related,22/09/2026,15,111.00,1665.00,After UK calibration
+E027,P60,Independent retail,No,01/10/2026,10,126.00,1260.00,After UK calibration

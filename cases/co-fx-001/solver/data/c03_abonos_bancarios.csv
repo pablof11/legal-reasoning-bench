@@ -1,0 +1,7 @@
+﻿fecha_contable,id_movimiento,titular_debito,cuenta_termina,beneficiario_abono,divisa,importe,concepto_transaccional,referencia_ordenante,estado
+2024-08-29,BRC-240829-0141,Nisamar Procesos Térmicos S.A.S.,6241,Bruma Capital S.A.S.,COP,755320000.00,Transferencia empresarial,BC-REC-082924 / AC-114,EJECUTADA
+2025-07-18,BRC-250718-0097,Nisamar Procesos Térmicos S.A.S.,6241,Bruma Capital S.A.S.,COP,640000000.00,Transferencia empresarial,RF-SCH-017 / BC-REC-071825,EJECUTADA
+2026-06-18,BRC-260618-0416,Nisamar Procesos Térmicos S.A.S.,6241,Marea Pagos Digitales S.A.S.,COP,359720000.00,Servicio de adquirencia y recaudo,MP-65822,EJECUTADA
+2026-06-18,BRC-260618-0417,Nisamar Procesos Térmicos S.A.S.,6241,Marea Pagos Digitales S.A.S.,COP,940000.00,Tarifa por procesamiento,MP-65822-FEE,EJECUTADA
+2026-07-20,BRC-260720-0083,Nisamar Procesos Térmicos S.A.S.,6241,Orograna Holding S.A.S.,COP,250880000.00,Reintegro de anticipo de tesorería,OH-0706 / PO-26-084,EJECUTADA
+2026-11-16,BRC-261116-0124,Nisamar Procesos Térmicos S.A.S.,6241,Cuenta operativa de reserva Nisamar,COP,385000000.00,Traspaso interno / reserva contingencias,ACTA 014-26,EJECUTADA

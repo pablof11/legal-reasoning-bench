@@ -1,0 +1,16 @@
+fecha_hora_myt,programa,lote_u_orden,estado,causa,observacion_operador,equipo,incidencia
+2026-02-04 10:10,ALT-F,TM-260312-A,RTB-APPROVED,MKT,Archivo comercial de marca 25-ALT vigente,CALDRIS/PROGRAM,
+2026-03-28 09:44,ALT-P,TM-260420-B,RTB-APPROVED,TECH,Validación de producción P-2602,CALDRIS/PROGRAM,
+2026-04-29 14:30,ALT-U,TM-260519-C,RTB-APPROVED,ORDER,Aceptación anterior a actualización de grupo,TARNELL/SALES,
+2026-05-06 08:05,ALT-U,TM-260519-C,REVIEW-REQUIRED,ECN,Prueba de recubrimiento pendiente de firma,TARNELL/QA,ECN-268
+2026-05-14 16:35,ALT-U,TM-260519-C,RTB-APPROVED,ECN,Liberación de laboratorio tras repetir prueba,TARNELL/QA,ECN-268
+2026-06-17 11:05,ALT-F,PO-260629,REVIEW-REQUIRED,AR,Partida Q1 no aplicada; confirmar con mesa de grupo,CALDRIS/PROGRAM,R-260617
+2026-06-19 13:14,ALT-F,PO-260629,RTB-APPROVED,MKT,Nombramiento del distribuidor vigente,CALDRIS/PROGRAM,R-260617
+2026-07-11 10:00,ALT-F,TM-260715-D,RTB-APPROVED,TECH,Revisión de precio y firmware de julio cerrada,CALDRIS/PROGRAM,
+2026-08-12 07:45,ALT-F,PO-260817,REVIEW-REQUIRED,FIN,Cuenta Q2 no aclarada; admisión de pedidos en pausa,CALDRIS/PROGRAM,Q2-AR
+2026-08-15 12:10,ALT-P,TM-260819-E,RTB-APPROVED,ORDER,Lote aceptado; prueba de controlador aprobada,TARNELL/OPS,P-APP-0815
+2026-08-18 16:25,ALT-F,PO-260817,RTB-APPROVED,FIN,Aviso Q2 registrado; cola comercial reabierta,CALDRIS/PROGRAM,Q2-AR
+2026-07-20 17:30,ALT-U,TM-260715-D,DISPATCHED,ORDER,Salida de tarjeta en blanco según confirmación,TARNELL/WAREHOUSE,
+2026-09-13 09:18,ALT-P,TM-260909-F,REVIEW-REQUIRED,ECN,Informe de calibración de P-260,TARNELL/QA,ECN-301
+2026-09-16 15:55,ALT-P,TM-260909-F,RTB-APPROVED,ECN,Retrabajo aprobado,TARNELL/QA,ECN-301
+2026-10-31 13:14,ALT-F,PO-261113,REVIEW-REQUIRED,FIN,Conciliación estado Q3 pendiente,CALDRIS/PROGRAM,Q3-AR

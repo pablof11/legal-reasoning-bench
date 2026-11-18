@@ -1,0 +1,11 @@
+﻿voucher,supplier,posting_date,cost_center,project,location_on_approval,deliverable_description,amount_usd,supplier_ref,ap_status
+QM-BE2101,Borelyn Precision s.r.o.,2021-06-05,DEV-31,VB12,Moravian plant / Brno,B4 body cavity layout and shop drawings,1450000.00,BPD-21-201,PAID
+QM-BE2108,Borelyn Precision s.r.o.,2021-08-20,DEV-31,VB12,Moravian plant / Brno,"B4 toolpath, valve-seat gauge package",900000.00,BPD-21-208,PAID
+QM-BE2205,Borelyn Precision s.r.o.,2022-03-26,DEV-31,CD08,Moravian plant / Brno,C2 stamping / finish drawings,1350000.00,BPD-22-105,PAID
+QM-BE2219,Borelyn Precision s.r.o.,2022-08-17,DEV-31,CD08,Moravian plant / Brno,C2 shop run-out and fixture tolerance programs,1200000.00,BPD-22-119,PAID
+QM-BE2407,Borelyn Precision s.r.o.,2024-05-03,DEV-31,HX04,Moravian plant / Brno,HX housing R3 initial digital twin and first-off checks,1150000.00,BPD-24-407,PAID
+QM-BE2429,Borelyn Precision s.r.o.,2024-10-05,DEV-31,GENERAL,Moravian plant / Brno,Quenlow field telemetry dashboard UX and data model,800000.00,BPD-24-429,PAID
+QM-HD2201,"Haversen Design Lab, LLC",2022-07-01,ENG-18,VB12,Dayton OH,Flow analysis / US lab validation,850000.00,HVD-22-44,PAID
+QM-HD2302,"Haversen Design Lab, LLC",2023-02-22,ENG-18,CD08,Dayton OH,Domestic field vibration validation and customer trials,650000.00,HVD-23-06,PAID
+QM-HD2309,"Haversen Design Lab, LLC",2023-09-28,ENG-18,VB12,Brno Czech Republic,CNC code revision B4 transfer and production cycle sheets,750000.00,HVD-23-31,PAID
+QM-HD2401,"Haversen Design Lab, LLC",2024-02-23,ENG-18,CD08,Brno Czech Republic,C2 seat grinding program and inspection gauge settings,500000.00,HVD-24-08,PAID

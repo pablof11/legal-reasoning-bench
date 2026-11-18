@@ -1,0 +1,13 @@
+﻿Entry_reference,Invoice_reference,Units,Provisional_unit_price_GBP,Index_adjustment_per_unit_GBP,Adjustment_GBP,Adjustment_type,Review_period
+E001,LP-INV-250918,500,42.00,1.00,500.00,Copper-content quarterly review,2025-09 to 2026-09
+E003,LP-INV-251016,500,42.00,0.50,250.00,Copper-content quarterly review,2025-09 to 2026-09
+E005,LP-INV-251120,500,42.00,-0.40,-200.00,Copper-content quarterly review,2025-09 to 2026-09
+E007,LP-INV-251211,500,42.00,0.80,400.00,Copper-content quarterly review,2025-09 to 2026-09
+E009,LP-INV-260115,500,43.00,0.60,300.00,Copper-content quarterly review,2025-09 to 2026-09
+E011,LP-INV-260212,500,43.00,-0.20,-100.00,Copper-content quarterly review,2025-09 to 2026-09
+E013,LP-INV-260319,500,43.00,0.90,450.00,Copper-content quarterly review,2025-09 to 2026-09
+E016,LP-INV-260416,500,43.00,1.10,550.00,Copper-content quarterly review,2025-09 to 2026-09
+E019,LP-INV-260514,500,43.00,-0.50,-250.00,Copper-content quarterly review,2025-09 to 2026-09
+E022,LP-INV-260618,500,43.00,0.40,200.00,Copper-content quarterly review,2025-09 to 2026-09
+E025,LP-INV-260716,500,44.00,0.70,350.00,Copper-content quarterly review,2025-09 to 2026-09
+E028,LP-INV-260917,500,44.00,0.30,150.00,Copper-content quarterly review,2025-09 to 2026-09

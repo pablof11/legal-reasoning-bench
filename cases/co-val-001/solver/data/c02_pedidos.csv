@@ -1,0 +1,10 @@
+orden_cliente,confirmacion_vendedor,fecha_confirmacion_myt,factura_comercial,familia,unidades,ventana_cargue,estado_pedido,observacion_ventas
+PO-260218,OC-260221-43,2026-02-21 10:32,TM-260312-A,FC-410 / GP-18,520,2026-03-12 to 2026-03-16,Aceptada / despachada,FOB Port Klang
+PO-260401,OC-260403-11,2026-04-03 15:48,TM-260420-B,HB-260P / HB-260B,350,2026-04-20 to 2026-04-23,Aceptada / despachada,Imagen de fábrica aprobada conforme a ruta
+PO-260429,OC-260430-08,2026-04-30 09:11,TM-260519-C,GP-18 / FC-410,380,2026-05-19 to 2026-05-22,Aceptada / despachada,ECN-268 cerrado antes de cargue
+PO-260629,,,,FC-410,100,Proyección de junio,Retirada el 25/06/2026,Comprador sustituyó volumen con orden de julio
+PO-260705,OC-260708-39,2026-07-08 11:17,TM-260715-D,FC-410 / HB-260B,280,2026-07-15 to 2026-07-20,Aceptada / despachada,Programada bajo circular de julio
+PO-260728,OC-260729-75,2026-07-29 12:08,TM-260819-E,HB-260P / GP-18,400,2026-08-19 to 2026-08-23,Aceptada / despachada,Validación de imagen P completada
+PO-260817,OC-260819-14,2026-08-19 14:31,,FC-410,90,October 2026 allocation,Aceptada / carga pendiente,Reabierta admisión tras alerta del programa
+PO-260901,OC-260902-49,2026-09-02 10:05,TM-260909-F,HB-260P / FC-410,175,2026-09-17 to 2026-09-19,Aceptada / despachada,ECN de septiembre liberado antes de empaque
+PO-261113,,,,FC-410,120,Proyección de noviembre,No aceptada al 13/11/2026,Revisión de programa / nuevas órdenes

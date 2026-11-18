@@ -1,0 +1,16 @@
+{
+  "round": 1,
+  "date": "2026-11-18",
+  "harness": "Inspect (inspect_ai 0.3.291), eval/regbench.py",
+  "provider": "OpenRouter",
+  "attempts_per_case": "one scored attempt; automatic retries only for empty or truncated provider responses",
+  "models": {
+    "anthropic/claude-fable-5.2": {"reasoning_effort": "high", "max_tokens": 60000, "web": "OpenRouter web search restricted to each case's official legal-source domains"},
+    "openai/gpt-6.2-astra": {"reasoning_effort": "high", "max_tokens": 60000, "web": "OpenRouter web search restricted to each case's official legal-source domains"},
+    "google/gemini-4-carbon": {"reasoning_effort": "medium", "max_tokens": 65536, "web": "none", "note": "Web-search runs failed repeatedly at the provider; at high reasoning the provider output limit was exhausted before an answer. CBAM-001 was truncated on both attempts and is reported as no complete answer."}
+  },
+  "judges": ["anthropic/claude-fable-5.2", "openai/gpt-6.2-astra", "google/gemini-4-carbon"],
+  "judge_settings": {"reasoning_effort": "medium", "max_tokens": 64000, "structured_output": true},
+  "official_score": "mean of the two judges from other developers, after the author's review of disputed penalty criteria",
+  "author_review": "13 negative criteria on which the two independent judges disagreed"
+}

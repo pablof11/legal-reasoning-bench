@@ -1,0 +1,7 @@
+﻿Batch,Date,Counterparty,Narrative,Debit_GBP,Credit_GBP,Reference,Line_type
+NET-26-1031,31/10/2026,Fallowbrook Treasury Ltd,Group treasury net settlement received,0.00,168400.00,TR-261031,Bank settlement summary
+NET-26-1031,31/10/2026,Fallowbrook Holdings Ltd,2025 UK distribution margin adjustment under group policy,0.00,162000.00,TP-TRUEUP-2025,Component
+NET-26-1031,31/10/2026,Lantao Precision Lighting (Shenzhen) Co Ltd,Copper-content price debit note across AL40 releases,2600.00,0.00,DN-261028,Component
+NET-26-1031,31/10/2026,Lantao Precision Lighting (Shenzhen) Co Ltd,Quality credit - September 2025 batch,0.00,2400.00,CN-261029,Component
+NET-26-1031,31/10/2026,Lantao Precision Lighting (Shenzhen) Co Ltd,Warranty repair reimbursement - April 2026 batch,0.00,4800.00,CN-261030,Component
+NET-26-1031,31/10/2026,Lantao Precision Lighting (Shenzhen) Co Ltd,Warehouse damage goodwill credit - May 2026 batch,0.00,1800.00,CN-261031,Component

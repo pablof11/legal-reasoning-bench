@@ -1,0 +1,5 @@
+MRN,acceptance_date,import_country,regime,taric_code,supplementary_unit,line_qty,dispatch_ref,supporting_invoices,tariff_preference_code,declared_origin,customs_value_EUR_at_clearance,duty_paid_EUR,representation_type,declarant,represented_person
+25NL0RTM00684021,2025-04-15,NL,EU-UK TCA,8408906790,p/st,18,NB-EXP-25041,NB-FI-25041;NB-FI-25042,300,GB,1826300,0.00,Indirect,PortClear B.V. / NL009384756000,Delta Grid Equipment B.V. / NL009475821000
+25NL0RTM00937416,2025-06-10,NL,EU-UK TCA,8408906790,p/st,18,NB-EXP-25055,NB-FI-25055,300,GB,1826450,0.00,Indirect,PortClear B.V. / NL009384756000,Delta Grid Equipment B.V. / NL009475821000
+25NL0RTM01380872,2025-07-24,NL,EU-UK TCA,8408906790,p/st,18,NB-EXP-25071,NB-FI-25071;NB-FI-25072,300,GB,1826350,0.00,Indirect,PortClear B.V. / NL009384756000,Delta Grid Equipment B.V. / NL009475821000
+25NL0RTM01752693,2025-09-10,NL,EU-UK TCA,8408906790,p/st,18,NB-EXP-25091,NB-FI-25091,300,GB,1826500,0.00,Indirect,PortClear B.V. / NL009384756000,Delta Grid Equipment B.V. / NL009475821000
