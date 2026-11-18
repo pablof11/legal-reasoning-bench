@@ -7,6 +7,7 @@ license: CC-BY-4.0
 authors:
   - family-names: "Rios Montoya"
     given-names: "Juan Pablo"
+doi: "10.5281/zenodo.24350871"
 repository-code: "https://github.com/pablof11/legal-reasoning-bench"
 abstract: "An expert-designed benchmark of professional legal reasoning in customs, international trade, foreign-exchange and regulatory law. Six cases across the EU, UK, US and Colombia, scored with weighted rubrics and penalty criteria, and evaluated with the Inspect framework."
 keywords:

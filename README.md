@@ -1,5 +1,7 @@
 # Legal Reasoning Bench: Customs, Trade and Regulatory Law
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24350871.svg)](https://doi.org/10.5281/zenodo.24350871)
+
 **An expert-designed benchmark of professional legal reasoning in customs, international trade, foreign-exchange and regulatory law, evaluated with [Inspect](https://inspect.aisi.org.uk).**
 
 **Website:** https://pablof11.github.io/legal-reasoning-bench/
@@ -99,4 +101,6 @@ Designed by **Juan Pablo Rios Montoya**, a Colombian-qualified lawyer (*Abogado*
 
 ## Licence and citation
 
-The cases, reference answers, rubrics and results are licensed under [CC BY 4.0](LICENSE). Please cite as described in [CITATION.cff](CITATION.cff).
+The cases, reference answers, rubrics and results are licensed under [CC BY 4.0](LICENSE). Please cite as:
+
+> Rios Montoya, J. P. (2026). *Legal Reasoning Bench: Customs, Trade and Regulatory Law* (v0.1.0). Zenodo. https://doi.org/10.5281/zenodo.24350871
