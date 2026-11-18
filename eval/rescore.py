@@ -24,8 +24,10 @@ from statistics import mean
 from typing import Any
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-import regbench as rb  # noqa: E402
+import importlib  # noqa: E402
+rb = importlib.import_module("legal_reasoning_bench.legal_reasoning_bench")
 from inspect_ai.log import list_eval_logs, read_eval_log  # noqa: E402
 from inspect_ai.model import get_model  # noqa: E402
 from report import slug  # noqa: E402

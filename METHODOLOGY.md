@@ -50,7 +50,7 @@ Cases with calculations include a reconciliation workbook so that every decision
 
 ## 5. Running an evaluation
 
-Trials run as an [Inspect](https://inspect.aisi.org.uk) evaluation (`eval/regbench.py`). Each case is one sample.
+Trials run as an [Inspect](https://inspect.aisi.org.uk) evaluation (`src/legal_reasoning_bench/legal_reasoning_bench.py`, task `legal_reasoning_bench`). Each case is one sample.
 
 | Setting | Rule |
 |---|---|

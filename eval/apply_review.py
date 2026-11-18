@@ -15,7 +15,9 @@ from pathlib import Path
 from statistics import mean
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-import regbench as rb  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+import importlib  # noqa: E402
+rb = importlib.import_module("legal_reasoning_bench.legal_reasoning_bench")
 
 
 def main(grades_path: str, review_path: str, out_path: str) -> None:

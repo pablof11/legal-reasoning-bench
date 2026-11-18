@@ -56,7 +56,7 @@ def run_eval(req: dict, dry: bool) -> None:
     models = ["mockllm/model"] if dry else req["models"]
     judges = [] if dry else req.get("judges", [])
     cmd = [
-        "inspect", "eval", str(ROOT / "eval" / "regbench.py"),
+        "inspect", "eval", str(ROOT / "src" / "legal_reasoning_bench" / "legal_reasoning_bench.py") + "@legal_reasoning_bench",
         "--model", ",".join(models),
         "--log-dir", str(log_dir),
         "--log-format", "eval",
@@ -66,8 +66,7 @@ def run_eval(req: dict, dry: bool) -> None:
         "--no-fail-on-error",
         "-T", f"web={'none' if dry else req.get('web', 'search')}",
     ]
-    if judges:
-        cmd += ["-T", f"judges={','.join(judges)}"]
+    cmd += ["-T", f"judges={','.join(judges) if judges else 'none'}"]
     if req.get("cases"):
         cmd += ["-T", f"cases={req['cases']}"]
     if req.get("attempts"):

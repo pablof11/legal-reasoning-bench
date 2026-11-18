@@ -76,11 +76,14 @@ results/round-1/     model answers, judge grades, author review and final scores
 ## Running the evaluation
 
 ```bash
-pip install -r eval/requirements.txt
+git clone https://github.com/pablof11/legal-reasoning-bench && cd legal-reasoning-bench
+uv sync                      # or: pip install -e .
 export OPENROUTER_API_KEY=...
-inspect eval eval/regbench.py --model openrouter/<lab>/<model> \
-  -T judges=openrouter/<lab>/<judge-1>,openrouter/<lab>/<judge-2>
+uv run inspect eval src/legal_reasoning_bench/legal_reasoning_bench.py@legal_reasoning_bench \
+  --model openrouter/<lab>/<model>
 ```
+
+By default the three round-1 judges grade every answer. Use `-T judges=...` to choose other judges and `-T web=none` for models outside OpenRouter.
 
 See [eval/README.md](eval/README.md) for the task options and for running on GitHub Actions. The full protocol is in [METHODOLOGY.md](METHODOLOGY.md).
 

@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "legal-reasoning-bench"
+version = "0.1.0"
+description = "Expert-authored legal reasoning cases in customs, trade, foreign-exchange and regulatory law, run as an Inspect evaluation"
+authors = [{ name = "Juan Pablo Rios Montoya" }]
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "CC-BY-4.0" }
+dependencies = [
+    "inspect-ai>=0.3.291",
+    "openai",
+    "openpyxl",
+    "pypdf",
+    "pydantic>=2",
+]
+
+[project.entry-points.inspect_ai]
+legal_reasoning_bench = "legal_reasoning_bench"
+
+[project.urls]
+"Homepage" = "https://github.com/pablof11/legal-reasoning-bench"
+"Documentation" = "https://pablof11.github.io/legal-reasoning-bench/"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+legal_reasoning_bench = ["py.typed"]
+
+[dependency-groups]
+dev = [
+    "pytest>=7.0",
+    "pytest-asyncio>=0.23",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

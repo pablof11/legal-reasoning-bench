@@ -1,0 +1,2 @@
+[inspect_ai]
+legal_reasoning_bench = legal_reasoning_bench

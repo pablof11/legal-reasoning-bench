@@ -1,19 +1,23 @@
-"""Regulatory Benchmark (Customs, Trade and Tax) as an Inspect evaluation.
+"""Legal Reasoning Bench (customs, trade and regulatory law) as an Inspect evaluation.
 
 Each case in ``cases/`` becomes one sample. The model under test receives only the
 contents of the case's ``solver/`` folder, rendered as text, plus one fixed
 instruction in the case language. Answers are scored against the case rubric by
 one or more judge models; a judge never grades a model from its own developer.
 
-Run (from the repository root):
+Run (from the repository root, after ``uv sync``):
 
-    inspect eval eval/regbench.py --model openrouter/anthropic/<model> \
-        -T judges=openrouter/openai/<model>,openrouter/google/<model>
+    uv run inspect eval src/legal_reasoning_bench/legal_reasoning_bench.py@legal_reasoning_bench \
+        --model openrouter/<lab>/<model>
+
+By default the three round-1 judges grade every answer; override them with
+``-T judges=...`` (for example cheaper models, or models from another provider).
 
 Task options (-T):
     cases     comma-separated case IDs (default: all)
-    web       "search" (official-source web search through OpenRouter) or "none"
-    judges    comma-separated judge models; empty string disables scoring
+    web       "search" (official-source web search; OpenRouter models only) or "none"
+    judges    comma-separated judge models (default: the three round-1 judges);
+              "none" generates answers without scoring them
 """
 
 from __future__ import annotations
@@ -37,7 +41,7 @@ from inspect_ai.solver import Generate, TaskState, solver
 from inspect_ai.util import json_schema
 from pydantic import BaseModel, Field
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]
 CASES_DIR = ROOT / "cases"
 NEGATIVE_CAP = -30.0
 
@@ -360,6 +364,11 @@ def answer_case(web: str = "search", attempts: int = 5):
     async def solve(state: TaskState, generate: Generate) -> TaskState:
         kwargs: dict[str, Any] = {}
         if web == "search":
+            if not str(state.model).startswith("openrouter/"):
+                raise ValueError(
+                    "web='search' uses OpenRouter's server-side search tool; "
+                    "use an openrouter/... model or pass -T web=none"
+                )
             kwargs["extra_body"] = {
                 "tools": [{
                     "type": "openrouter:web_search",
@@ -390,8 +399,15 @@ def answer_case(web: str = "search", attempts: int = 5):
 # --------------------------------------------------------------------------- #
 # Task
 # --------------------------------------------------------------------------- #
+DEFAULT_JUDGES = [
+    "openrouter/anthropic/claude-fable-5.2",
+    "openrouter/openai/gpt-6.2-astra",
+    "openrouter/google/gemini-4-carbon",
+]
+
+
 @task
-def regbench(
+def legal_reasoning_bench(
     cases: str | list[str] | None = None,
     web: str = "search",
     judges: str | list[str] | None = None,
@@ -400,11 +416,13 @@ def regbench(
     if web not in {"search", "none"}:
         raise ValueError("web must be 'search' or 'none'")
     dataset = build_dataset(cases, web)
-    judge_list = _as_list(judges)
+    judge_list = _as_list(judges) or DEFAULT_JUDGES
+    # "none" generates answers without grading them (used for dry runs).
+    scoring = judge_list != ["none"]
 
     return Task(
         dataset=dataset,
         solver=answer_case(web, int(attempts)),
-        scorer=rubric_judge(judge_list) if judge_list else None,
+        scorer=rubric_judge(judge_list) if scoring else None,
         config=GenerateConfig(max_tokens=60000, reasoning_effort="high"),
     )

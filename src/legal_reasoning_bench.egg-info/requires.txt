@@ -1,0 +1,5 @@
+inspect-ai>=0.3.291
+openai
+openpyxl
+pypdf
+pydantic>=2

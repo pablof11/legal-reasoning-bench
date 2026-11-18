@@ -4,7 +4,7 @@ The benchmark runs as an [Inspect](https://inspect.aisi.org.uk) evaluation, the 
 
 | File | Purpose |
 |---|---|
-| `regbench.py` | Inspect task. It loads each case as a sample, runs the model and scores the answer with model judges against the case rubric |
+| `../src/legal_reasoning_bench/legal_reasoning_bench.py` | Inspect task `legal_reasoning_bench`. It loads each case as a sample, runs the model and scores the answer with model judges against the case rubric |
 | `rescore.py` | Grades saved answers again without regenerating them, and reuses grades that already exist |
 | `apply_review.py` | Applies the author's review decisions and computes the final scores |
 | `report.py` | Writes answers, per-criterion grades and a summary as Markdown |
@@ -13,14 +13,13 @@ The benchmark runs as an [Inspect](https://inspect.aisi.org.uk) evaluation, the 
 ## Running locally
 
 ```bash
-pip install -r eval/requirements.txt
+uv sync                                 # or: pip install -e .
 sudo apt-get install poppler-utils      # optional: better PDF text extraction
 export OPENROUTER_API_KEY=...
 
-inspect eval eval/regbench.py \
+uv run inspect eval src/legal_reasoning_bench/legal_reasoning_bench.py@legal_reasoning_bench \
   --model openrouter/<lab>/<model> \
-  --reasoning-effort high \
-  -T judges=openrouter/<lab>/<judge-1>,openrouter/<lab>/<judge-2>,openrouter/<lab>/<judge-3>
+  --reasoning-effort high
 ```
 
 Task options (`-T`):
@@ -28,8 +27,8 @@ Task options (`-T`):
 | Option | Values | Default |
 |---|---|---|
 | `cases` | Comma-separated case IDs, for example `uk-val-001,co-fx-001` | all |
-| `web` | `search` (official-source web search through OpenRouter) or `none` | `search` |
-| `judges` | Comma-separated judge models; empty disables scoring | none |
+| `web` | `search` (official-source web search through OpenRouter; OpenRouter models only) or `none` | `search` |
+| `judges` | Comma-separated judge models, or `none` to skip scoring | the three round-1 judges |
 | `attempts` | Maximum attempts when a provider returns an empty or truncated answer | 5 |
 
 Open the logs with `inspect view`.
