@@ -2,6 +2,8 @@
 
 **An expert-designed benchmark of professional legal reasoning in customs, international trade, foreign-exchange and regulatory law, evaluated with [Inspect](https://inspect.aisi.org.uk).**
 
+**Website:** https://pablof11.github.io/legal-reasoning-bench/
+
 In each case an AI system acts as counsel on a realistic regulatory file: a client instruction, a bundle of conflicting business records and an official legal bibliography. It must find the issues that matter, decide which evidence to trust, apply the law in force at a fixed cut-off date, run the numbers and produce work a client could act on. Answers are scored criterion by criterion against an expert reference answer, with penalties for errors a supervising lawyer would treat as serious.
 
 | | |
