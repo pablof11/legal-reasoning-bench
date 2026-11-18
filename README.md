@@ -97,7 +97,7 @@ Each case folder contains `SHA256SUMS.txt`, and each `solver/` folder its own ma
 
 ## Author
 
-Designed by **Juan Pablo Rios Montoya**, a Colombian-qualified lawyer (*Abogado*) completing an LL.M. in International Trade Law at the University of Aberdeen. He works on customs, international trade and tax regulation and on the evaluation of AI legal reasoning. [GitHub](https://github.com/pablof11)
+Designed by **Juan Pablo Rios Montoya**, a Colombian-qualified lawyer (*Abogado*); LL.M. in International Trade Law, University of Aberdeen. He works on customs, international trade and tax regulation and on the evaluation of AI legal reasoning. [GitHub](https://github.com/pablof11)
 
 ## Licence and citation
 
